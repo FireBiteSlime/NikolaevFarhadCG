@@ -161,7 +161,6 @@ void GuiTextRectangle::setText(const char* text, char r, char g , char b )
 
 void GuiTextRectangle::Draw()
 {
-
 	GuiTextRectanglePrivate *_d = d_func();
 
 	
@@ -184,7 +183,7 @@ void GuiTextRectangle::Draw()
 	glVertex2d(_d->pos_x, _d->pos_y+_d->h);
 
 	glTexCoord2d(1, 1);
-	glVertex2d(_d->pos_x + _d->w, _d->pos_y +_d->h);
+	glVertex2d(_d->pos_x + _d->w, _d->pos_y+_d->h);
 
 	glTexCoord2d(1, 0);
 	glVertex2d(_d->pos_x + _d->w, _d->pos_y);

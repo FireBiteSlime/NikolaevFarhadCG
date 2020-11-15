@@ -7,13 +7,14 @@
 #include <vector>
 #include "MyVector3d.h"
 
+#include <string>
+
 #include <windows.h>
 #include <gl/GL.h>
 #include "gl/GLU.h"
 
 #define _USE_MATH_DEFINES
 #include <math.h>
-#include <string>
 
 class OpenGL;
 
